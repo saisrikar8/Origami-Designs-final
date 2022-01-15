@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Rock 3D';
+    src: url("Rock3D-Regular.ttf");
+}
+@font-face{
+    font-family: 'Pacifico';
+    src: url("Pacifico-Regular.ttf");
+}
+@font-face{
+    font-family: 'Patrick Hand';
+    src: url("PatrickHand-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url("WorkSans-Light.ttf");
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('OpenSansCondensed-Bold.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.body{
+    background-color: aquamarine;
+}
+.active{
+    background-color: #ff9500;
+    width:200px;
+    border-bottom: solid;
+}
+.h1{
+    color:blue;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Rock 3D';
+}
+.subhead{
+    color:blueviolet;
+    font-family: "Monaco", "Lucida Console", monospace;
+    text-align: center;
+    font-size: x-large;
+}
+.list{
+    color: #FF049B;
+    font-family: 'Pacifico';
+    text-decoration: underline overline;
+    font-size: 35px;
+    font-weight: bolder;
+}
+img{
+    width:auto;
+    height: 250px;
+}
+.p{
+    color: red;
+    font-family:'Patrick Hand';
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+}
+.footer{
+    font-family: "Work Sans";
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(26, 102, 232);
+    position:sticky;
+    top:0;
+    padding-top: 2px;
+  }
+
+ul img{
+    height: 50px;
+    width: auto;
+    float:left;
+}
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    background-color: #111;
+    width: 200px;
+    box-shadow: 0 32px 128px 0 rgba(0, 0, 0, 0.7), 0 48px 160px 0 rgba(0, 0, 0, 0.9);
+  }
+.item{
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    height:550px;
+    width: 550px;
+    background-color: antiquewhite;
+    color: #979797;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.item img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-self: baseline;
+}
+.ideas{
+    border:solid;
+    height: 1000px;
+    color: blue;
+    background-color: aqua;
+
+}
+
+.header{
+    background-image: url("origami.png");
+    background-color: aliceblue;
+    height: 850px;
+    width:100%;
+    display:flex;
+}
+.header h1{
+    margin-left: 25%;
+}
